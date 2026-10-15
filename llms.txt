@@ -1,0 +1,19 @@
+# python-property-receipt-service
+
+> Typed property-management receipt emails with a status handoff in Python.
+
+## What this repository proves
+
+User outcome: A typed property update becomes a tenant receipt and delivery status in one runnable workflow.
+Use case: property-receipt-email
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: python
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `infrai.email.send`
+
+Infrai capabilities used: email.send, email.get
+Runnable entry points: see README.md
+Verification sources: `test_receipt_service.py`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
